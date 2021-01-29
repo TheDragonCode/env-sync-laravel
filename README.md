@@ -21,7 +21,6 @@
     * [Laravel / Lumen Frameworks](#laravel--lumen-frameworks)
     * [Symfony Framework](#symfony-framework)
     * [Native using](#native-using)
-    * [Example](#example)
 
 ## Installation
 
