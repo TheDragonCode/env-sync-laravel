@@ -82,7 +82,7 @@ See the documentation in the [andrey-helldar/env-sync-symfony](https://github.co
 See the documentation in the [base repository](https://github.com/andrey-helldar/env-sync).
 
 
-[badge_build]:          https://img.shields.io/github/workflow/status/andrey-helldar/env-sync-laravel/native?style=flat-square
+[badge_build]:          https://img.shields.io/github/workflow/status/andrey-helldar/env-sync-laravel/phpunit?style=flat-square
 
 [badge_downloads]:      https://img.shields.io/packagist/dt/andrey-helldar/env-sync-laravel.svg?style=flat-square
 
