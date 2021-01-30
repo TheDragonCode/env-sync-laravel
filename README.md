@@ -68,7 +68,7 @@ Now, every time you run the `composer update` command, the environment settings 
 If you want to force the stored values, you can change the configuration file by publishing it with the command:
 
 ```bash
-php artisan vendor:publish --provider="Helldar\EnvSync\ServiceProvider"
+php artisan vendor:publish --provider="Helldar\EnvSync\Frameworks\Laravel\ServiceProvider"
 ```
 
 Now you can change the file `config/env-sync-laravel.php`.
