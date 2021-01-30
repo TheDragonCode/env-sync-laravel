@@ -71,7 +71,7 @@ If you want to force the stored values, you can change the configuration file by
 php artisan vendor:publish --provider="Helldar\EnvSync\Frameworks\Laravel\ServiceProvider"
 ```
 
-Now you can change the file `config/env-sync-laravel.php`.
+Now you can change the file `config/env-sync.php`.
 
 ### Symfony Framework
 
