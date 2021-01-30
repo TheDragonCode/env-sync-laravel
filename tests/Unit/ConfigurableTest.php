@@ -7,8 +7,6 @@ use Tests\TestCase;
 
 final class ConfigurableTest extends TestCase
 {
-    protected $type = 'laravel';
-
     protected $fixture_expected = 'expected-config';
 
     public function testCustomPath()

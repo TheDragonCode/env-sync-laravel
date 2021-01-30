@@ -7,8 +7,6 @@ use Tests\TestCase;
 
 final class MainTest extends TestCase
 {
-    protected $type = 'laravel';
-
     public function testCustomPath()
     {
         $this->artisan('env:sync', ['--path' => $this->path])
