@@ -14,13 +14,6 @@
 [![Total Downloads][badge_downloads]][link_packagist]
 [![License][badge_license]][link_license]
 
-## Table of contents
-
-* [Installation](#installation)
-* [How to use](#how-to-use)
-    * [Laravel / Lumen Frameworks](#laravel--lumen-frameworks)
-    * [Symfony Framework](#symfony-framework)
-    * [Native using](#native-using)
 
 ## Installation
 
@@ -80,6 +73,17 @@ See the documentation in the [andrey-helldar/env-sync-symfony](https://github.co
 ### Native using
 
 See the documentation in the [base repository](https://github.com/andrey-helldar/env-sync).
+
+
+## License
+
+This package is licensed under the [MIT License](LICENSE).
+
+## For Enterprise
+
+Available as part of the Tidelift Subscription.
+
+The maintainers of `andrey-helldar/api-response` and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use. [Learn more](https://tidelift.com/subscription/pkg/packagist-andrey-helldar-api-response?utm_source=packagist-andrey-helldar-api-response&utm_medium=referral&utm_campaign=enterprise&utm_term=repo).
 
 
 [badge_build]:          https://img.shields.io/github/workflow/status/andrey-helldar/env-sync-laravel/phpunit?style=flat-square
