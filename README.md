@@ -1,6 +1,6 @@
 # Environment Synchronization
 
-<img src="https://preview.dragon-code.pro/TheDragonCode/environment synchronization.svg?brand=laravel" width="100%" height="320" alt="Environment Synchronization"/>
+<img src="https://preview.dragon-code.pro/TheDragonCode/env-sync.svg?brand=laravel" width="100%" height="320" alt="Environment Synchronization"/>
 
 [![StyleCI Status][badge_styleci]][link_styleci]
 [![Github Workflow Status][badge_build]][link_build]
