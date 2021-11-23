@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use Helldar\EnvSync\Frameworks\Laravel\ServiceProvider;
-use Helldar\Support\Facades\Helpers\Filesystem\File;
+use DragonCode\EnvSync\Frameworks\Laravel\ServiceProvider;
+use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Tests\Concerns\Configurable;
 use Tests\Concerns\Files;
