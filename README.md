@@ -73,17 +73,17 @@ See the documentation in the [base repository](https://github.com/TheDragonCode/
 This package is licensed under the [MIT License](LICENSE).
 
 
-[badge_build]:          https://img.shields.io/github/workflow/status/dragon-code/env-sync-laravel/phpunit?style=flat-square
+[badge_build]:          https://img.shields.io/github/workflow/status/TheDragonCode/env-sync-laravel/phpunit?style=flat-square
 
 [badge_downloads]:      https://img.shields.io/packagist/dt/dragon-code/env-sync-laravel.svg?style=flat-square
 
 [badge_license]:        https://img.shields.io/packagist/l/dragon-code/env-sync-laravel.svg?style=flat-square
 
-[badge_stable]:         https://img.shields.io/github/v/release/dragon-code/env-sync-laravel?label=stable&style=flat-square
+[badge_stable]:         https://img.shields.io/github/v/release/TheDragonCode/env-sync-laravel?label=stable&style=flat-square
 
 [badge_unstable]:       https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
 
-[link_build]:           https://github.com/dragon-code/env-sync-laravel/actions
+[link_build]:           https://github.com/TheDragonCode/env-sync-laravel/actions
 
 [link_license]:         LICENSE
 
