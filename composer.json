@@ -1,9 +1,9 @@
 {
-    "name": "andrey-helldar/env-sync-laravel",
+    "name": "dragon-code/env-sync-laravel",
     "description": "env-sync package adapter for Laravel framework",
     "type": "library",
     "license": "MIT",
-    "keywords": ["env", "dotenv", "environment", "sync", "laravel", "framework"],
+    "keywords": ["env", "dotenv", "environment", "sync", "laravel", "framework", "dragon-code", "dragon", "andrey-helldar"],
     "authors": [
         {
             "name": "Andrey Helldar",
@@ -11,21 +11,22 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/andrey-helldar/env-sync/issues",
-        "source": "https://github.com/andrey-helldar/env-sync"
+        "issues": "https://github.com/TheDragonCode/env-sync-laravel/issues",
+        "source": "https://github.com/TheDragonCode/env-sync-laravel"
     },
     "require": {
         "php": "^7.3|^8.0",
-        "andrey-helldar/env-sync": "^2.0"
+        "dragon-code/env-sync": "^3.0"
     },
     "require-dev": {
+        "dragon-code/support": "^5.2",
         "mockery/mockery": "^1.3.1",
-        "orchestra/testbench": "^4.0|^5.0|^6.0",
-        "phpunit/phpunit": "^8.0|^9.0"
+        "orchestra/testbench": "^5.0|^6.0",
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Helldar\\EnvSync\\Frameworks\\Laravel\\": "src"
+            "DragonCode\\EnvSync\\Frameworks\\Laravel\\": "src"
         }
     },
     "autoload-dev": {
@@ -42,18 +43,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Helldar\\EnvSync\\Frameworks\\Laravel\\ServiceProvider"
+                "DragonCode\\EnvSync\\Frameworks\\Laravel\\ServiceProvider"
             ]
-        },
-        "thanks": [
-            {
-                "name": "andrey-helldar/env-sync",
-                "url": "https://github.com/andrey-helldar/env-sync"
-            },
-            {
-                "name": "andrey-helldar/support",
-                "url": "https://github.com/andrey-helldar/support"
-            }
-        ]
+        }
     }
 }

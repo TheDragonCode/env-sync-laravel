@@ -1,12 +1,12 @@
 <?php
 
-namespace Helldar\EnvSync\Frameworks\Laravel;
+namespace DragonCode\EnvSync\Frameworks\Laravel;
 
-use Helldar\EnvSync\Frameworks\Laravel\Console\Sync;
-use Helldar\EnvSync\Support\Config;
+use DragonCode\EnvSync\Frameworks\Laravel\Console\Sync;
+use DragonCode\EnvSync\Support\Config;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-final class ServiceProvider extends BaseServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     protected $config_path = __DIR__ . '/../config/env-sync.php';
 

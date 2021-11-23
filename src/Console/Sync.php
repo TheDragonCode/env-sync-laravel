@@ -1,11 +1,11 @@
 <?php
 
-namespace Helldar\EnvSync\Frameworks\Laravel\Console;
+namespace DragonCode\EnvSync\Frameworks\Laravel\Console;
 
-use Helldar\EnvSync\Services\Syncer;
+use DragonCode\EnvSync\Services\Syncer;
 use Illuminate\Console\Command;
 
-final class Sync extends Command
+class Sync extends Command
 {
     protected $signature = 'env:sync {--path= : Gets the path to scan for files}';
 
@@ -19,7 +19,7 @@ final class Sync extends Command
 
         $this->sync($syncer, $filename);
 
-        $this->info("The found keys were successfully saved to the {$filename} file.");
+        $this->info("The found keys were successfully saved to the $filename file.");
     }
 
     protected function sync(Syncer $syncer, string $filename): void
