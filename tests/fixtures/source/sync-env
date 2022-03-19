@@ -1,8 +1,14 @@
 APP_DEBUG=true
-APP_ENV=testing
-APP_KEY=
+APP_ENV=local
+APP_KEY=foo
 APP_NAME=Laravel
 APP_URL=https://example.com
+
+DB_CONNECTION=mysql
+DB_DATABASE=default
+DB_HOST=mysql
+DB_PASSWORD=root
+DB_USERNAME=root
 
 CUSTOM_KEY_1=
 CUSTOM_KEY_2=
