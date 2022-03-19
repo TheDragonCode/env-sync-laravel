@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use DragonCode\EnvSync\Frameworks\Laravel\Console\Sync;
 use DragonCode\Support\Exceptions\DirectoryNotFoundException;
 use Tests\TestCase;
 
@@ -9,7 +10,7 @@ class MainTest extends TestCase
 {
     public function testCustomPath()
     {
-        $this->artisan('env:sync', ['--path' => $this->path])
+        $this->artisan(Sync::class, ['--path' => $this->path])
             ->assertExitCode(0)
             ->run();
 
@@ -21,6 +22,6 @@ class MainTest extends TestCase
     {
         $this->expectException(DirectoryNotFoundException::class);
 
-        $this->artisan('env:sync', ['--path' => base_path('foo')])->run();
+        $this->artisan(Sync::class, ['--path' => base_path('foo')])->run();
     }
 }
