@@ -15,7 +15,7 @@ class Sync extends Command
 
     public function handle(Syncer $syncer)
     {
-        if ($this->optionWithEnv()) {
+        if ($this->option('with-env')) {
             $this->sync($syncer, '.env', true);
         }
 
@@ -36,21 +36,6 @@ class Sync extends Command
 
     protected function path(): string
     {
-        return $this->optionPath() ?: $this->realPath();
-    }
-
-    protected function realPath(): string
-    {
-        return realpath(base_path());
-    }
-
-    protected function optionPath(): ?string
-    {
-        return $this->option('path');
-    }
-
-    protected function optionWithEnv(): bool
-    {
-        return (bool) $this->option('with-env');
+        return $this->option('path') ?: base_path();
     }
 }
