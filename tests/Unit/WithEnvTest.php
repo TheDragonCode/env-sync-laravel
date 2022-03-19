@@ -31,6 +31,6 @@ class WithEnvTest extends TestCase
 
     protected function copyFixture()
     {
-        File::copy(__DIR__ . '/../fixtures/source/sync-env', $this->targetPath());
+        File::copy($this->path . '/sync-env', $this->targetPath());
     }
 }
