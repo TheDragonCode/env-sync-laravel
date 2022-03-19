@@ -26,7 +26,7 @@
     },
     "require": {
         "php": "^7.3 || ^8.0",
-        "dragon-code/env-sync": "^3.4.2",
+        "dragon-code/env-sync": "^3.4.4",
         "illuminate/console": "^7.0 || ^8.0 || ^9.0",
         "illuminate/support": "^7.0 || ^8.0 || ^9.0"
     },
