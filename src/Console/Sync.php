@@ -9,7 +9,7 @@ class Sync extends Command
 {
     protected $signature = 'env:sync'
                            . ' {--path= : Gets the path to scan for files}'
-                           . ' {--with-env= : Determines whether to update the .env file}';
+                           . ' {--with-env : Determines whether to update the .env file}';
 
     protected $description = 'Synchronizing environment settings with a preset';
 
