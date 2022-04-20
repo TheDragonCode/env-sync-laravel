@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Tests\Unit;
 
 use DragonCode\EnvSync\Frameworks\Laravel\Console\Sync;
-use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use Tests\TestCase;
 
 class WithEnvTest extends TestCase
@@ -31,6 +30,6 @@ class WithEnvTest extends TestCase
 
     protected function copyFixture()
     {
-        File::copy($this->path . '/sync-env', $this->targetPath());
+        copy($this->path . '/sync-env', $this->targetPath());
     }
 }

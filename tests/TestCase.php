@@ -3,7 +3,6 @@
 namespace Tests;
 
 use DragonCode\EnvSync\Frameworks\Laravel\ServiceProvider;
-use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Tests\Concerns\Configurable;
 use Tests\Concerns\Files;
@@ -32,6 +31,8 @@ abstract class TestCase extends BaseTestCase
 
     protected function deleteFiles(): void
     {
-        File::delete($this->targetPath());
+        if (file_exists($this->targetPath())) {
+            unlink($this->targetPath());
+        }
     }
 }
