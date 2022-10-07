@@ -25,6 +25,24 @@
         "issues": "https://github.com/TheDragonCode/env-sync-laravel/issues",
         "source": "https://github.com/TheDragonCode/env-sync-laravel"
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/TheDragonCode"
+        },
+        {
+            "type": "open_collective",
+            "url": "https://opencollective.com/dragon-code"
+        },
+        {
+            "type": "boosty",
+            "url": "https://boosty.to/dragon-code"
+        },
+        {
+            "type": "yoomoney",
+            "url": "https://yoomoney.ru/to/410012608840929"
+        }
+    ],
     "require": {
         "php": "^7.3 || ^8.0",
         "dragon-code/env-sync": "^3.4.4 || ^4.0",
