@@ -70,7 +70,7 @@ jobs:
                 with:
                     php-version: ${{ matrix.php }}
                     extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv
-                    coverage: none
+                    coverage: xdebug
 
             -   name: Install dependencies
                 run: composer require laravel/framework:^${{ matrix.laravel }}
