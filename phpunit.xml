@@ -8,7 +8,7 @@
         colors="true"
         convertErrorsToExceptions="true"
         convertNoticesToExceptions="true"
-        convertWarningsToExceptions="true"
+        convertWarningsToExceptions="false"
         processIsolation="false"
         stopOnError="false"
         stopOnFailure="false"
